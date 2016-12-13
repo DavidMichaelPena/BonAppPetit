@@ -1,3 +1,4 @@
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -45,8 +46,18 @@ font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dej
 /* Monospace stack */
 }
 
-.navbar.navbar-inverse {
+.navbar-inverse {
   background:url('/assets/restaurant.png');
   border-radius: 0;
   box-shadow: 0px 1px 3px #2a2a2a;
 }
+
+.navbar-inverse .navbar-brand {
+  color: #ED8309;
+  /*font-family: 'Josefin Slab', serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Old Standard TT', serif;
+  font-family: 'hamburgerheavenregular';*/
+  font-family: 'lemonchickenregular';
+  font-size:26px;
+  }
