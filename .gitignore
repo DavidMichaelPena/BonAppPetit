@@ -19,5 +19,4 @@
 # Ignore application configuration
 /config/application.yml
 
-GEOCODER_API_KEY: "AkQ9hlYqJk5wMFTT-v8r9WgS9p0ghUZ3vmTUm2S42xleC5pDax4kdZm93cSWxoLV"
 
