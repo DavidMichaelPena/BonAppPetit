@@ -8,3 +8,12 @@
   <%= f.submit 'Create', class: 'btn btn-primary' %>
 <% end %>
 </div>
+
+<div class="booyah-box">
+<h1>Upload you Photo</h1>
+<%= simple_form_for @photo do |f| %>
+  <%= f.input :caption %>
+  <br/>
+  <%= f.submit 'Create', class: 'btn btn-primary' %>
+<% end %>
+</div>
