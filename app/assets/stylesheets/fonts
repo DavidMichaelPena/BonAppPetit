@@ -1,0 +1,77 @@
+font-family: 'Arima Madurai', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Lemonada', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Droid Serif', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Reem Kufi', sans-serif;
+font-family: 'Bitter', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Trirong', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Old Standard TT', serif;
+font-family: 'Handlee', cursive;
+font-family: 'Cardo', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Playball', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Marck Script', cursive;
+font-family: 'Overlock', cursive;
+font-family: 'Niconne', cursive;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Annie Use Your Telescope', cursive;
+font-family: 'Irish Grover', cursive;
+font-family: 'Goudy Bookletter 1911', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Mystery Quest', cursive;
+font-family: 'Forum', cursive;
+font-family: 'Rakkas', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Kranky', cursive;
+font-family: 'Qwigley', cursive;
+font-family: 'GFS Didot', serif;
+font-family: 'Mountains of Christmas', cursive;
+font-family: 'Cormorant Infant', serif;
+font-family: 'Cormorant', serif;
+font-family: 'Vast Shadow', cursive;
+font-family: 'Fondamento', cursive;
+font-family: 'Cormorant Unicase', serif;
+font-family: 'Quintessential', cursive;
+font-family: 'Amatica SC', cursive;
+font-family: 'Life Savers', cursive;
+font-family: 'Italiana', serif;
+font-family: 'IM Fell English SC', serif;
+font-family: 'Averia Serif Libre', cursive;
+font-family: 'Rye', cursive;
+font-family: 'IM Fell DW Pica SC', serif;
+font-family: 'Monofett', cursive;
+font-family: 'Trade Winds', cursive;
+font-family: 'Nosifer', cursive;
+font-family: 'Pirata One', cursive;
+font-family: 'Emilys Candy', cursive;
+font-family: 'UnifrakturCook', cursive;
+font-family: 'Almendra SC', serif;
+font-family: 'GFS Neohellenic', sans-serif;
+font-family: 'Snowburst One', cursive;
+font-family: 'Ribeye Marrow', cursive;
+font-family: 'Miltonian', cursive;
+font-family: 'Princess Sofia', cursive;
+font-family: 'Londrina Sketch', cursive;
+font-family: 'Uncial Antiqua', cursive;
+font-family: 'Eater', cursive;
+
+standard
+copy into <head> of html doc
+
+<link href="https://fonts.googleapis.com/css?family=Almendra+SC|Amatica+SC|Annie+Use+Your+Telescope|Arima+Madurai|Averia+Serif+Libre|Bitter|Cardo|Cinzel|Cinzel+Decorative|Cormorant|Cormorant+Infant|Cormorant+Unicase|Crimson+Text|Droid+Serif|EB+Garamond|Eater|Emilys+Candy|Fondamento|Forum|Fredericka+the+Great|GFS+Didot|GFS+Neohellenic|Goudy+Bookletter+1911|Great+Vibes|Handlee|IM+Fell+DW+Pica+SC|IM+Fell+English+SC|Irish+Grover|Italiana|Julius+Sans+One|Kranky|Lemonada|Life+Savers|Londrina+Sketch|Love+Ya+Like+A+Sister|Marck+Script|Miltonian|Monofett|Montserrat|Mountains+of+Christmas|Mystery+Quest|Niconne|Nosifer|Noto+Serif|Old+Standard+TT|Open+Sans+Condensed:300|Overlock|Pirata+One|Playball|Playfair+Display|Press+Start+2P|Princess+Sofia|Quintessential|Qwigley|Rakkas|Raleway|Reem+Kufi|Ribeye+Marrow|Rye|Satisfy|Snowburst+One|Tangerine|Trade+Winds|Trirong|Uncial+Antiqua|UnifrakturCook:700|Vast+Shadow" rel="stylesheet">
+
+@import
+<style>
+@import url('https://fonts.googleapis.com/css?family=Almendra+SC|Amatica+SC|Annie+Use+Your+Telescope|Arima+Madurai|Averia+Serif+Libre|Bitter|Cardo|Cinzel|Cinzel+Decorative|Cormorant|Cormorant+Infant|Cormorant+Unicase|Crimson+Text|Droid+Serif|EB+Garamond|Eater|Emilys+Candy|Fondamento|Forum|Fredericka+the+Great|GFS+Didot|GFS+Neohellenic|Goudy+Bookletter+1911|Great+Vibes|Handlee|IM+Fell+DW+Pica+SC|IM+Fell+English+SC|Irish+Grover|Italiana|Julius+Sans+One|Kranky|Lemonada|Life+Savers|Londrina+Sketch|Love+Ya+Like+A+Sister|Marck+Script|Miltonian|Monofett|Montserrat|Mountains+of+Christmas|Mystery+Quest|Niconne|Nosifer|Noto+Serif|Old+Standard+TT|Open+Sans+Condensed:300|Overlock|Pirata+One|Playball|Playfair+Display|Press+Start+2P|Princess+Sofia|Quintessential|Qwigley|Rakkas|Raleway|Reem+Kufi|Ribeye+Marrow|Rye|Satisfy|Snowburst+One|Tangerine|Trade+Winds|Trirong|Uncial+Antiqua|UnifrakturCook:700|Vast+Shadow');
+</style>

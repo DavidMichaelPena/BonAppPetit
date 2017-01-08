@@ -22,7 +22,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  background: url('/assets/restaurant_icons.png');
+  background: url('extra_clean_paper_@2X.png');
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+}
 
   /* Times New Roman-based stack */
 /*font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
@@ -36,8 +39,8 @@ body {
 /* Helvetica/Arial-based sans serif stack */
 /*font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-/* Verdana-based sans serif stack */
-font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+/*Verdana-based sans serif stack */
+/*font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 
 /* Trebuchet-based sans serif stack */
 /*font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
@@ -46,29 +49,35 @@ font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dej
 /*font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
 
 /* Monospace stack */
-}
 
 .navbar-inverse {
-  background:url('/assets/restaurant.png');
+  background: url('blizzard.png');
+  font-family: 'Cormorant Garamond', serif;
+  color: #ed0909;
   border-radius: 0;
-  box-shadow: 0px 1px 3px #2a2a2a;
+  box-shadow: 0px 3px 9px #2a2a2a;
   margin-bottom:0;
 }
 
 .navbar-inverse .navbar-brand {
-  color: #ED8309;
+  color: #ed0909;
+  font-family: 'cinzel_decorativeregular';
+  font-size:34px;
+  letter-spacing: -0.3px;
+  font-weight:50;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
   /*font-family: 'Josefin Slab', serif;
   font-family: 'Raleway', sans-serif;
-  font-family: 'Old Standard TT', serif;
-  font-family: 'hamburgerheavenregular';*/
-  font-family: 'lemonchickenregular';
-  font-size:26px;
+  /*font-family: 'Old Standard TT', serif;
+  font-family: 'hamburgerheavenregular';
+  font-family: 'lemonchickenregular';*/
+  
   }
-
-
   .digg_pagination {
   background: disabled;
   cursor: default;
+  clear: both;
+  margin-left: 4.75em;
   /* self-clearing method: */ }
   .digg_pagination a, .digg_pagination span, .digg_pagination em {
     padding: 0.2em 0.5em;
@@ -82,14 +91,14 @@ font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dej
     font-style: normal;
     font-weight: bold;
     background: white;
-    color: #ED8309;
+    color: #ed0909;
     border: 1px solid #54BAA4; }
   .digg_pagination a {
     text-decoration: none;
     color: #105cb6;
     border: 1px solid #9aafe5; }
     .digg_pagination a:hover, .digg_pagination a:focus {
-      color: #ED8309;
+      color: #ed0909;
       border-color: #54BAA4; }
   .digg_pagination:after {
     content: ".";
@@ -110,7 +119,7 @@ font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dej
 }
 
 #map {
-        height: 300px;
+        height: 275px;
       }
   .clear {
     clear: both;
@@ -137,7 +146,7 @@ blockquote p {
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     max-height: 550px;
-    width: 110%;
+    width: 100%;
 }
 
 .carousel-caption {
@@ -154,5 +163,4 @@ blockquote p {
 .carousel {
   box-shadow: 0px 9px 24px #2a2a2a;
 }
-
 

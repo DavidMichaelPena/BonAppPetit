@@ -17,16 +17,18 @@
     <div class="item">
       <%= image_tag 'slider2.jpg', class: 'img-responsive' %>
       <div class="carousel-caption">
-        The Breakfast Champion
+        Breakfast of Champions
       </div>
     </div>
     <div class="item">
       <%= image_tag 'slider3.jpg', class: 'img-responsive' %>
       <div class="carousel-caption">
-        Who's got the best?
+        Who's got the best? 
+        <br />
+        Let us know! 
       </div>
     </div>
-    ...
+  
   </div>
 
   <!-- Controls -->
@@ -34,7 +36,7 @@
     <span class="glyphicon glyphicon-chevron-left"></span>
   </a>
   <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"</span>
+    <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
 </div>
 
@@ -59,12 +61,14 @@
         <%= place.comments.last.message %>
       <small><%= place.comments.last.user.email %></small>
     </blockquote>
+  <% end %>
   </div>
-  <%end%>
 
-  </div>
-<% end %>
+  <% end %>
 
-<div class="digg_pagination">
+ 
+<div class="text-center">
+  <div class="digg_pagination">
     <%= will_paginate @places, :container => false %>
+  </div>
 </div>
