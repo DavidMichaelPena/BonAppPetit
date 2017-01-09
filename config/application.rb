@@ -6,7 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
-module BonAppPetit
+module Nomster
   class Application < Rails::Application
 
     
