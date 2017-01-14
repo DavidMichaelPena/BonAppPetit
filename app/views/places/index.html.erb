@@ -11,7 +11,7 @@
     <div class="item active">
       <%= image_tag 'slider1.jpg', class: 'img-responsive' %>
       <div class="carousel-caption">
-        The Best of the Twin Cities
+        The Best (and Worst!) </br> in the Twin Cities
       </div>
     </div>
     <div class="item">
@@ -51,22 +51,23 @@
     <% if place.user.present? %>
       <small><%= place.user.email %></small>
     <% end %>
+    </div>
+
 
 <% if place.comments.present? %>
- <div class="col-xs-12">
- <blockquote>
+  <div class="col-xs-12">
+  <blockquote>
      <% if place.comments.last.humanized_rating.present? %>
         <b><%= place.comments.last.humanized_rating %></b> -
-      <% end %>
         <%= place.comments.last.message %>
       <small><%= place.comments.last.user.email %></small>
     </blockquote>
-  <% end %>
+      <% end %>
   </div>
-
+  <% end %>
   <% end %>
 
- 
+  
 <div class="text-center">
   <div class="digg_pagination">
     <%= will_paginate @places, :container => false %>
